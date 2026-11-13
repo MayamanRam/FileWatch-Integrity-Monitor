@@ -1,0 +1,7 @@
+[tool.pyright]
+extraPaths = ["backend"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+pythonpath = ["backend"]
+

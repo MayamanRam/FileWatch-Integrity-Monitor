@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node & Frontend
+node_modules/
+.npm
+frontend/dist/
+frontend/node_modules/
+
+# Secrets & Local Data
+.env
+data/filewatch.db
+data/.hmac_key
+data/demo_monitored_assets/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.hmac_key
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
